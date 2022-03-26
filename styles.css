@@ -383,15 +383,18 @@ font-family: 'Times New Roman', Times, serif;
 }
 #blog .blog-box{
     display: flex;
-    align-items: center;
+    align-items:center;
     width: 100%;
     position: relative;
     padding-bottom: 80px;
     
+
+    
+    
 }
 #blog .blog-img{
     width: 70%;
-    margin: right 40px; ;
+    margin: right 40px; 
 }
 #blog img{
     width: 100%;
@@ -403,6 +406,7 @@ font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+
 }
 
 #blog .blog-details a{
@@ -412,6 +416,13 @@ font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
     position: relative;
     margin-bottom: 70px;
+    margin-left: 50px;
+}
+#blog .blog-details p{
+    margin-left: 50px;
+}
+#blog .blog-details h4{
+    margin-left: 50px;
 }
 
 
@@ -504,21 +515,3 @@ cursor: pointer;
 font-family: 'Times New Roman', Times, serif;
 }
 
-@media (max-width:799px) {
-    #navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-        top: 0;
-        right: 0px;
-        height: 100vh;
-        width: 300px;
-        background-color: #E3e6f3;
-        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        padding: 80px 0 0 10px;
-        
-    }
-    
-}
